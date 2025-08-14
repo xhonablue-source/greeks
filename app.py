@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(
     page_title="MathCraft: Greek Letters",
-    page_icon="🧮",
+    page_icon="�",
     layout="wide"
 )
 
@@ -18,13 +18,21 @@ st.title("🎓 MathCraft: Greek Letters in Mathematics")
 st.markdown("A legendary guide from the dawn of civilization to modern science.")
 
 # -------------------------------
+# Ancient African Mathematics
+# -------------------------------
+st.header("The Roots of Mathematics in Timbuktu")
+st.markdown("""
+Long before the European Renaissance, the city of Timbuktu in the Mali Empire was a world-renowned center of learning. Scholars at institutions like the University of Sankore produced vast collections of manuscripts covering a wide range of subjects, including mathematics, astronomy, and philosophy.
+
+These texts, some of which date back to the 13th century, showcase sophisticated knowledge in **algebra**, **geometry**, and **arithmetic**. They were used for practical applications like land measurement, trade calculations, and determining inheritance according to Islamic law. The preservation of these manuscripts highlights a rich intellectual heritage that existed long before the mathematical contributions of the Greeks and other cultures.
+""")
+
+# -------------------------------
 # Story / Lesson
 # -------------------------------
 st.header("The Journey of Knowledge")
 st.markdown("""
-Before the great philosophers of Athens, the seeds of mathematics were sown in ancient Egypt, where the need for land measurement and architecture laid the foundation. The pyramids, monuments of human ingenuity, were built using principles of geometry.
-
-From there, the torch was passed to the great Greek thinkers. Pythagoras discovered the relationship between the sides of a right triangle. Archimedes laid the groundwork for calculus. Euclid's "Elements" became the bedrock of geometry for centuries.
+Building upon the foundations of earlier civilizations, the torch of knowledge was passed to the great Greek thinkers. Pythagoras discovered the relationship between the sides of a right triangle. Archimedes laid the groundwork for calculus. Euclid's "Elements" became the bedrock of geometry for centuries.
 
 These thinkers didn't just solve problems; they created a language for the universe. The Greek alphabet, in their hands, transcended its role as a mere writing system. It became a powerful tool to describe abstract concepts, from the ratio of a circle's circumference to its diameter (π) to the rate of change of a quantity (Δ).
 
@@ -55,15 +63,30 @@ for letter in greek_letters:
 # -------------------------------
 st.header("Proficiency Test")
 quiz_questions = [
+    {"q":"Which Greek letter is often used to represent angular acceleration?",
+      "options":["π (Pi)", "α (Alpha)", "γ (Gamma)", "ω (Omega)"],
+      "answer":"α (Alpha)"},
+    {"q":"In statistics, which letter is used for a statistical coefficient?",
+      "options":["Δ (Delta)", "β (Beta)", "ε (Epsilon)", "σ (Sigma)"],
+      "answer":"β (Beta)"},
+    {"q":"The symbol Δ is used to represent?",
+      "options":["A large change in quantity", "A small positive number", "Angular velocity", "The golden ratio"],
+      "answer":"A large change in quantity"},
+    {"q":"Which letter is used in calculus to denote an infinitesimally small positive number?",
+      "options":["α (Alpha)", "β (Beta)", "ε (Epsilon)", "π (Pi)"],
+      "answer":"ε (Epsilon)"},
     {"q":"Which Greek letter is used to represent the ratio of a circle's circumference to its diameter?",
       "options":["α (Alpha)", "π (Pi)", "δ (Delta)", "σ (Sigma)"],
       "answer":"π (Pi)"},
-    {"q":"Uppercase Σ represents?",
-      "options":["Change in quantity", "Summation", "Small number", "Angular velocity"],
+    {"q":"Uppercase Σ represents which mathematical operation?",
+      "options":["Change in quantity", "Summation", "Standard deviation", "Angular velocity"],
       "answer":"Summation"},
-    {"q":"Lowercase δ represents?",
-      "options":["Large change", "Very small quantity", "Standard deviation", "Coefficient"],
-      "answer":"Very small quantity"}
+    {"q":"What does the symbol ω often represent in physics?",
+      "options":["Ohms", "Angular velocity/frequency", "Wavelength", "Work function"],
+      "answer":"Angular velocity/frequency"},
+    {"q":"Which Greek letter is used to represent the Lorentz factor in physics?",
+      "options":["α (Alpha)", "γ (Gamma)", "δ (Delta)", "Ω (Omega)"],
+      "answer":"γ (Gamma)"}
 ]
 
 for i, q in enumerate(quiz_questions):
@@ -128,3 +151,4 @@ st.markdown("""
 # -------------------------------
 st.markdown("---")
 st.markdown("<p style='text-align:center; color:gray;'>Built by Xavier Honablue M.Ed for CognitiveCloud.ai</p>", unsafe_allow_html=True)
+�
