@@ -34,7 +34,7 @@ st.header("The Journey of Knowledge")
 st.markdown("""
 Building upon the foundations of earlier civilizations, the torch of knowledge was passed to the great Greek thinkers. Pythagoras discovered the relationship between the sides of a right triangle. Archimedes laid the groundwork for calculus. Euclid's "Elements" became the bedrock of geometry for centuries.
 
-These thinkers didn't just solve problems; they created a language for the universe. The Greek alphabet, in their hands, transcended its role as a mere writing system. It became a powerful tool to describe abstract concepts, from the ratio of a circle's circumference to its diameter (π) to the rate of change of a quantity (Δ).
+These thinkers didn't just solve problems; they created a language for the universe. The Greek alphabet, in their hands, transcended its role as a mere writing system. It became a powerful tool to describe abstract concepts, from the ratio of a circle's circumference to its diameter ($π$) to the rate of change of a quantity ($Δ$).
 
 Today, these same Greek letters are used in fields as diverse as physics, engineering, finance, and computer science, proving the timeless nature of their discoveries.
 """)
@@ -44,14 +44,14 @@ Today, these same Greek letters are used in fields as diverse as physics, engine
 # -------------------------------
 st.header("The Greek Alphabet in Mathcraft")
 greek_letters = [
-    {"name": "Alpha", "symbol": "α", "use": "Angles, angular acceleration, coefficient of thermal expansion, particle physics"},
-    {"name": "Beta", "symbol": "β", "use": "Angles, a type of radiation, statistical coefficients"},
-    {"name": "Delta", "symbol": "Δ / δ", "use": "Change in quantity, small variations"},
-    {"name": "Epsilon", "symbol": "ε", "use": "Small positive number in calculus, permittivity"},
-    {"name": "Pi", "symbol": "π", "use": "Ratio of a circle's circumference to diameter"},
-    {"name": "Sigma", "symbol": "Σ / σ", "use": "Summation, standard deviation"},
-    {"name": "Omega", "symbol": "Ω / ω", "use": "Ohms, angular velocity/frequency"},
-    {"name": "Gamma", "symbol": "γ", "use": "Gamma radiation, Lorentz factor"}
+    {"name": "Alpha", "symbol": "$α$", "use": "Angles, angular acceleration, coefficient of thermal expansion, particle physics"},
+    {"name": "Beta", "symbol": "$β$", "use": "Angles, a type of radiation, statistical coefficients"},
+    {"name": "Delta", "symbol": "$Δ$ / $δ$", "use": "Change in quantity, small variations"},
+    {"name": "Epsilon", "symbol": "$ε$", "use": "Small positive number in calculus, permittivity"},
+    {"name": "Pi", "symbol": "$π$", "use": "Ratio of a circle's circumference to diameter"},
+    {"name": "Sigma", "symbol": "$Σ$ / $σ$", "use": "Summation, standard deviation"},
+    {"name": "Omega", "symbol": "$Ω$ / $ω$", "use": "Ohms, angular velocity/frequency"},
+    {"name": "Gamma", "symbol": "$γ$", "use": "Gamma radiation, Lorentz factor"}
 ]
 
 for letter in greek_letters:
@@ -64,29 +64,29 @@ for letter in greek_letters:
 st.header("Proficiency Test")
 quiz_questions = [
     {"q":"Which Greek letter is often used to represent angular acceleration?",
-      "options":["π (Pi)", "α (Alpha)", "γ (Gamma)", "ω (Omega)"],
-      "answer":"α (Alpha)"},
+      "options":["$π$ (Pi)", "$α$ (Alpha)", "$γ$ (Gamma)", "$ω$ (Omega)"],
+      "answer":"$α$ (Alpha)"},
     {"q":"In statistics, which letter is used for a statistical coefficient?",
-      "options":["Δ (Delta)", "β (Beta)", "ε (Epsilon)", "σ (Sigma)"],
-      "answer":"β (Beta)"},
-    {"q":"The symbol Δ is used to represent?",
+      "options":["$Δ$ (Delta)", "$β$ (Beta)", "$ε$ (Epsilon)", "$σ$ (Sigma)"],
+      "answer":"$β$ (Beta)"},
+    {"q":"The symbol $Δ$ is used to represent?",
       "options":["A large change in quantity", "A small positive number", "Angular velocity", "The golden ratio"],
       "answer":"A large change in quantity"},
     {"q":"Which letter is used in calculus to denote an infinitesimally small positive number?",
-      "options":["α (Alpha)", "β (Beta)", "ε (Epsilon)", "π (Pi)"],
-      "answer":"ε (Epsilon)"},
+      "options":["$α$ (Alpha)", "$β$ (Beta)", "$ε$ (Epsilon)", "$π$ (Pi)"],
+      "answer":"$ε$ (Epsilon)"},
     {"q":"Which Greek letter is used to represent the ratio of a circle's circumference to its diameter?",
-      "options":["α (Alpha)", "π (Pi)", "δ (Delta)", "σ (Sigma)"],
-      "answer":"π (Pi)"},
-    {"q":"Uppercase Σ represents which mathematical operation?",
+      "options":["$α$ (Alpha)", "$π$ (Pi)", "$δ$ (Delta)", "$σ$ (Sigma)"],
+      "answer":"$π$ (Pi)"},
+    {"q":"Uppercase $Σ$ represents which mathematical operation?",
       "options":["Change in quantity", "Summation", "Standard deviation", "Angular velocity"],
       "answer":"Summation"},
-    {"q":"What does the symbol ω often represent in physics?",
+    {"q":"What does the symbol $ω$ often represent in physics?",
       "options":["Ohms", "Angular velocity/frequency", "Wavelength", "Work function"],
       "answer":"Angular velocity/frequency"},
     {"q":"Which Greek letter is used to represent the Lorentz factor in physics?",
-      "options":["α (Alpha)", "γ (Gamma)", "δ (Delta)", "Ω (Omega)"],
-      "answer":"γ (Gamma)"}
+      "options":["$α$ (Alpha)", "$γ$ (Gamma)", "$δ$ (Delta)", "$Ω$ (Omega)"],
+      "answer":"$γ$ (Gamma)"}
 ]
 
 for i, q in enumerate(quiz_questions):
