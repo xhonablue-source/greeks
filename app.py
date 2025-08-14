@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(
     page_title="MathCraft: Greek Letters",
-    page_icon="�",
+    page_icon="🧮",
     layout="wide"
 )
 
@@ -151,4 +151,3 @@ st.markdown("""
 # -------------------------------
 st.markdown("---")
 st.markdown("<p style='text-align:center; color:gray;'>Built by Xavier Honablue M.Ed for CognitiveCloud.ai</p>", unsafe_allow_html=True)
-�
