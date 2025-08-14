@@ -141,7 +141,7 @@ st.markdown("""
 - **Rho ($ρ$)** – Sensitivity to interest rates
 
 **Links:**
-- [Investopedia: Option Greeks](https://www.investopedia.com/search?q=greeks)
+- [Investopedia: Option Greeks](https://www.investopedia.com/trading/getting-to-know-the-greeks/)
 - [CBOE Options Education](https://www.optionseducation.org/advancedconcepts/understanding-options-greeks)
 - [QuantStart: Quantitative Trading](https://www.quantstart.com/articles/)
 """)
